@@ -1,5 +1,5 @@
 %btn-link-visited {
-  font-size: 1.6rem;
+  font-size: $default-font-size;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -7,4 +7,20 @@
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
+}
+
+.u-center-text {
+  text-align: center;
+}
+.u-margin-top-8 {
+  margin-top: 8rem;
+}
+.u-margin-top-10 {
+  margin-top: 10rem;
+}
+.u-margin-bottom-8 {
+  margin-bottom: 8rem;
+}
+.u-margin-bottom-2 {
+  margin-bottom: 2rem;
 }

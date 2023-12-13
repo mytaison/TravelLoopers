@@ -1,0 +1,16 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@mixin blended-screen-bg($color1, $color2, $img) {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color1, 0.85),
+      rgba($color2, 0.85)
+    ),
+    url($img);
+  background-blend-mode: screen;
+}

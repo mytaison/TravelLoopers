@@ -10,7 +10,12 @@
 @import "base/utilities";
 
 @import "components/button";
+@import "components/composition";
+@import "components/feature_box";
+@import "components/card";
+@import "components/stories";
+@import "components/bg-video";
 
 @import "layout/header";
-
+@import "layout/float_grid";
 @import "pages/home";
