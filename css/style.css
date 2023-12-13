@@ -453,3 +453,7 @@ body {
 .section-stories {
   padding: 15rem 0;
   position: relative; }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to bottom right, #28b485, #7ed56f); }

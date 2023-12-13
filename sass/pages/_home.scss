@@ -31,3 +31,12 @@
   //   background-color: $color-grey-light-1;
   position: relative;
 }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(
+    to bottom right,
+    $color-primary-dark,
+    $color-primary-light
+  );
+}
