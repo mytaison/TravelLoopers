@@ -149,10 +149,7 @@
 
   // BACK SIDE STYLINGS
   &__cta {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include center-content-absolute;
     width: 90%;
   }
   &__price-box {

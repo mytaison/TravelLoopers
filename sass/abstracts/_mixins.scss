@@ -14,3 +14,9 @@
     url($img);
   background-blend-mode: screen;
 }
+@mixin center-content-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
