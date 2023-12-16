@@ -9,6 +9,15 @@
   font-size: $default-font-size;
   transform: skewX(-12deg);
 
+  @include respond(tab-port) {
+    width: 100%;
+    padding: 4rem;
+    padding-left: 7rem;
+  }
+  @include respond(phone) {
+    transform: skewX(0deg);
+  }
+
   &__shape {
     position: relative;
     width: 15rem;
@@ -19,7 +28,11 @@
     -webkit-shape-outside: circle(50% at 50% 50%);
     shape-outside: circle(50% at 50% 50%);
     transform: translateX(-3rem) skew(12deg);
-
+    @include respond(phone) {
+      // width: 10rem;
+      // height: 10rem;
+      transform: translateX(-3rem) skewX(0deg);
+    }
     &:hover {
       mix-blend-mode: blur;
     }
@@ -34,6 +47,9 @@
 
   &__text {
     transform: skewX(12deg);
+    @include respond(phone) {
+      transform: skewX(0deg);
+    }
   }
 
   &__caption {
