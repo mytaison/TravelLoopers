@@ -136,6 +136,7 @@
         margin-right: 2rem;
         display: inline-block;
       }
+      visibility: hidden;
     }
 
     &:hover,
@@ -153,5 +154,11 @@
   &__checkbox:checked ~ &__nav {
     width: 100%;
     opacity: 1;
+  }
+  &__checkbox:checked ~ &__nav > &__list > &__item > &__link {
+    &:link,
+    &:visited {
+      visibility: visible;
+    }
   }
 }
